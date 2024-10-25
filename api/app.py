@@ -7,7 +7,7 @@ import json
 app = FastAPI()
 
 # URL do JSON fornecida
-JSON_URL = "https://firebasestorage.googleapis.com/v0/b/venusvmax-aa14f.appspot.com/o/Filmes_Series.json?alt=media&token=800708c1-f01a-48a5-8980-4c9d2faa5ee7"
+JSON_URL = "https://www.dropbox.com/scl/fi/v2fuahx8uxcar2edrkk8m/Filmes_Series.json?rlkey=mjw8j0iw5047eofkcm2wkqwbo&st=6zjei3ga&dl=1"
 CACHE_FILE = "/tmp/cache.json"  # Armazena o cache no diretório temporário
 CACHE_DURATION = 24 * 60 * 60   # Expira após 24 horas (em segundos)
 
